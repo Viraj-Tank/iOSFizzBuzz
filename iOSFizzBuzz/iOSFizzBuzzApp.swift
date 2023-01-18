@@ -1,9 +1,3 @@
-//
-//  iOSFizzBuzzApp.swift
-//  iOSFizzBuzz
-//
-//  Created by Viraj Tank on 18/01/23.
-//
 
 import SwiftUI
 
@@ -11,7 +5,7 @@ import SwiftUI
 struct iOSFizzBuzzApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
