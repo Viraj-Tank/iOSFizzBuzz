@@ -11,6 +11,7 @@
 		9842413D297784BB00A2A408 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842413C297784BB00A2A408 /* ContentView.swift */; };
 		9842413F297784BC00A2A408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9842413E297784BC00A2A408 /* Assets.xcassets */; };
 		98424143297784BC00A2A408 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98424142297784BC00A2A408 /* Preview Assets.xcassets */; };
+		9842414B297784E800A2A408 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842414A297784E800A2A408 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9842413E297784BC00A2A408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98424140297784BC00A2A408 /* iOSFizzBuzz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSFizzBuzz.entitlements; sourceTree = "<group>"; };
 		98424142297784BC00A2A408 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9842414A297784E800A2A408 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		9842412E297784BB00A2A408 = {
 			isa = PBXGroup;
 			children = (
+				98424149297784D400A2A408 /* View */,
 				98424139297784BB00A2A408 /* iOSFizzBuzz */,
 				98424138297784BB00A2A408 /* Products */,
 			);
@@ -67,6 +70,14 @@
 				98424142297784BC00A2A408 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98424149297784D400A2A408 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9842414A297784E800A2A408 /* MainView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9842413D297784BB00A2A408 /* ContentView.swift in Sources */,
+				9842414B297784E800A2A408 /* MainView.swift in Sources */,
 				9842413B297784BB00A2A408 /* iOSFizzBuzzApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

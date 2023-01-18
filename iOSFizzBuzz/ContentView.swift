@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  iOSFizzBuzz
-//
-//  Created by Viraj Tank on 18/01/23.
-//
 
 import SwiftUI
 
