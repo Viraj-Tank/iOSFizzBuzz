@@ -13,6 +13,9 @@
 		9842414B297784E800A2A408 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842414A297784E800A2A408 /* MainView.swift */; };
 		9842414D2977876B00A2A408 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842414C2977876B00A2A408 /* AboutView.swift */; };
 		9842414F2977889B00A2A408 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842414E2977889B00A2A408 /* BackgroundImageView.swift */; };
+		9842415529778CD300A2A408 /* NiceText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842415429778CD300A2A408 /* NiceText.swift */; };
+		9842415729778D3B00A2A408 /* FizzBuzzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842415629778D3B00A2A408 /* FizzBuzzView.swift */; };
+		9842415929778F2B00A2A408 /* CodeCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842415829778F2B00A2A408 /* CodeCreatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9842414A297784E800A2A408 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9842414C2977876B00A2A408 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		9842414E2977889B00A2A408 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		9842415429778CD300A2A408 /* NiceText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceText.swift; sourceTree = "<group>"; };
+		9842415629778D3B00A2A408 /* FizzBuzzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzView.swift; sourceTree = "<group>"; };
+		9842415829778F2B00A2A408 /* CodeCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCreatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				9842414E2977889B00A2A408 /* BackgroundImageView.swift */,
+				9842415429778CD300A2A408 /* NiceText.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -111,6 +118,8 @@
 			children = (
 				9842414A297784E800A2A408 /* MainView.swift */,
 				9842414C2977876B00A2A408 /* AboutView.swift */,
+				9842415629778D3B00A2A408 /* FizzBuzzView.swift */,
+				9842415829778F2B00A2A408 /* CodeCreatorView.swift */,
 			);
 			path = "Main Views";
 			sourceTree = "<group>";
@@ -185,7 +194,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9842415729778D3B00A2A408 /* FizzBuzzView.swift in Sources */,
 				9842414B297784E800A2A408 /* MainView.swift in Sources */,
+				9842415929778F2B00A2A408 /* CodeCreatorView.swift in Sources */,
+				9842415529778CD300A2A408 /* NiceText.swift in Sources */,
 				9842414D2977876B00A2A408 /* AboutView.swift in Sources */,
 				9842414F2977889B00A2A408 /* BackgroundImageView.swift in Sources */,
 				9842413B297784BB00A2A408 /* iOSFizzBuzzApp.swift in Sources */,
